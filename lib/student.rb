@@ -16,7 +16,7 @@ class Student
       key
 
 
-      #binding.pry
+      binding.pry
   end
   end
 
