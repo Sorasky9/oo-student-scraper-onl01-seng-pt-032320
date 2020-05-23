@@ -12,8 +12,8 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.each do |key|
-      key[:name]
-      
+      key = key.new(:name)
+
 
       #binding.pry
   end
