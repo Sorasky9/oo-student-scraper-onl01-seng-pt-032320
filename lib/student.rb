@@ -19,7 +19,9 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
+    #<- attributes_hash has a collection of hashes from the Scraper.scrape_profile_page
     attributes_hash.each {|key, value| self.send(("#{key}="), value)}
+
     #binding.pry
 
 
