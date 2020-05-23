@@ -13,7 +13,7 @@ class Student
   def self.create_from_collection(students_array)
     #<-students_array is a list of hashes
     students_array.each do |key| #<- key brings only the name and location of the hash
-      Student.new(key)
+      Student.new(key) #<- Student class instantiate specifically of the name inside hash called key from the iteration above.
 
 
       #binding.pry
