@@ -14,7 +14,6 @@ class Student
     students_array.each do |key|
       binding.pry
 
-
   end
   end
 
