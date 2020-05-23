@@ -22,7 +22,7 @@ class Student
     #<- attributes_hash has a collection of hashes from the Scraper.scrape_profile_page
     attributes_hash.each {|key, value| self.send(("#{key}="), value)}
     #^ We take the attributes_hash argument and iterate both the keys and value and say "Student (self), send the following:
-    # types of data (key)
+    # types of data (key) and specific types of data associated witht the type of data (value)
     # and "
 
     binding.pry
